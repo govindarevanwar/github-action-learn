@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: print hellow
         run: echo "hello world !!"
+      - name: print hellow
+        run: echo "hello world !!"
+        
   
   chalo-World:
     runs-on: ubuntu-latest
