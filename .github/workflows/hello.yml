@@ -21,4 +21,4 @@ jobs:
     
     steps:
       - name: print chello
-        run: echo "hello world !!"
+        run: cat /etc/os-release
