@@ -1,0 +1,14 @@
+name: Learn basic of GitHub Action
+
+on:
+  push:
+    branches:
+      -  main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print challo
+        run: echo "chello world !!"
